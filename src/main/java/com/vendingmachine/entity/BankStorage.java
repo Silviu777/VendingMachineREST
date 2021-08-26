@@ -33,5 +33,5 @@ public class BankStorage {
 			System.out.println("No cash inserted!");
 			return 0;
 		}
- }
+        }
 }
