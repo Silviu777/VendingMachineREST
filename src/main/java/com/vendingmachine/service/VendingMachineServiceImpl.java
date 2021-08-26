@@ -13,13 +13,7 @@ public class VendingMachineServiceImpl implements VendingService {
 		
 		return moneyMap;
 	}
-/*
-	@Override
-	public void purchaseItem() {
-		
-	}
-*/
-	
+
 	@Override
 	public double addMoney(Money cash) {
 		
@@ -34,9 +28,5 @@ public class VendingMachineServiceImpl implements VendingService {
 				System.out.println("No cash inserted!");
 				return 0;
 			}
-		
-	}
-
-	
-	
+	}	
 }
