@@ -28,5 +28,5 @@ public class VendingMachineServiceImpl implements VendingService {
 				System.out.println("No cash inserted!");
 				return 0;
 			}
-	}	
+	    }	
 }
