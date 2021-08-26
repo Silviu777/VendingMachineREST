@@ -16,7 +16,6 @@ public class ItemServiceImpl implements ItemService {
 	@Autowired
 	private ItemDAO itemDAO;
 	
-	
 	@Override
 	@Transactional
 	public List<Item> getItems() {
@@ -48,6 +47,5 @@ public class ItemServiceImpl implements ItemService {
 		
 		itemDAO.deleteById(itemId);
 	}
-
 
 }
