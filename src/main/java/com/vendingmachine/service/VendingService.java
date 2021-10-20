@@ -6,6 +6,4 @@ public interface VendingService {
 
 	public double addMoney(Money cash);
 	
-//	public void purchaseItem();
-	
 }
